@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Flatland Diesel | Truck and trailer repair ltd</title>
+ <link rel="stylesheet" href="css/css.css">
+</head>
+<body>
+<header>
+  <div class="header-top">
+    <h1>Flatland Diesel Truck & Trailer Repair</h1>
+
+    <div class="contact-info">
+      📞  3062627478
+      <span>✉️ manitoor2025@gmail.com</span>
+    </div>
+  </div>
+
+  <nav>
+    <a href="flatland diesel.html">Home</a>
+    <a href="about.html">About</a>
+    <a href="contact.html" class="contact-btn">Contact</a>
+    <a href="gallery.html">Gallery</a>
+  </nav>
+</header>
+
+<section class="hero">
+  <h2>Heavy-Duty Truck Repair You Can Trust</h2>
+</section>
+<title>Contact - Motive Engines</title>
+
+<!-- Google Font -->
+<link href="https://fonts.googleapis.com/css2?family=Oswald:wght@400;600&family=Roboto:wght@300;400&display=swap" rel="stylesheet">
+
+<!-- EmailJS -->
+<script src="https://cdn.jsdelivr.net/npm/emailjs-com@3/dist/email.min.js"></script>
+
+
+</head>
+
+<body>
+
+<div class="container">
+    <h2>Flatland Diesel Contact us</h2>
+
+    <form id="contact-form">
+        <input type="text" name="user_name" placeholder="Your Name" required>
+        <input type="email" name="user_email" placeholder="Your Email" required>
+        <input type="text" name="subject" placeholder="Subject" required>
+        <textarea name="message" rows="5" placeholder="Your Message" required></textarea>
+
+        <button type="submit">Send Message</button>
+    </form>
+
+    <div class="success" id="success-message"></div>
+
+    <div class="contact-info">
+        Or call us: <strong>Simo Toor(306) 262-7478</strong>
+    </div>
+</div>
+
+
+    <!-- MAP -->
+    <div class="map-box">
+        <h2>Our Location</h2>
+
+        <iframe 
+             src="https://www.google.com/maps?q=3703+Kinnear+Ave,+Saskatoon,+SK+S7P+0A6&output=embed"
+    width="100%" 
+    height="400" 
+    style="border:0; border-radius:8px;"
+    allowfullscreen=""
+    loading="lazy">
+        </iframe>
+    </div>
+
+</div>
+
+<script>
+document.getElementById("contactForm").addEventListener("submit", function(e) {
+    e.preventDefault();
+
+    document.getElementById("status").innerText =
+        "✅ Message sent successfully! We will contact you soon.";
+
+    this.reset();
+});
+</script>
+
+
+<section id="contact" class="section">
+  <h2>Contact Us</h2>
+  <p>📍 Saskatoon, SK</p>
+  <p>📞 Simo Toor(306) 262-7478</p>
+  <p>✉️ info@flatlanddiesel.com</p>
+</section>
+
+<footer>
+  <p>© 2026 Flatland Diesel. All Rights Reserved.</p>
+</footer>
+<script src="js/flatlan.js"></script>
+
+</body>
+</html>
